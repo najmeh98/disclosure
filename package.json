@@ -1,0 +1,13 @@
+{
+  "name": "disclosure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "prod": "tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --minify"
+  }
+}
