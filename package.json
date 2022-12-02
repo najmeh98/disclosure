@@ -8,6 +8,6 @@
   },
   "scripts": {
     "dev": "tailwindcss -i ./tailwind.css -o ./public/build/tailwind.css --watch",
-    "prod": "tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --minify"
+    "prod": "tailwindcss -i ./tailwind.css -o ./public/build/tailwind.css --minify"
   }
 }
